@@ -28,6 +28,8 @@ a lógica através da linguagem Ladder para abrir e fechar válvulas, ler sensor
 ![Mapeamento de Variáveis Modbus](screenshots/screenshot_modbus_tcp.png)
 
 - Supervisório em Python: Script que lê os registradores do CLP e exibe o status em tempo real. Além disso, atualiza uma lista contendo os valores dos insumos disponíveis no estoque e os mostra no display.
+- Interface Homem-Máquina: Interface para o monitoramento do código, feita pensando em monitorar o tempo de cada válvula aberta e controlar os sensores digitais do programa. Além disso, a interface conta com leds que sinalizam quando uma válvula está aberta e com displays que mostram o tempo restante até o produto final ficar pronto.
+![IHM - Interface Homem-Máquiina](screenshots/screenshotihm.png)
 
 Tecnologias
 - CODESYS V3.5 (SoftPLC)
